@@ -1,12 +1,21 @@
 {
-	"scripts": {
-		"postinstall": "elm-tooling install"
-	},
-	"devDependencies": {
-		"astring": "^1.9.0",
-		"elm-tooling": "^1.15.1",
-		"estree-walker": "^3.0.3",
-		"meriyah": "^6.0.5",
-		"ts-pattern": "^5.6.2"
-	}
+  "name": "@abuffseagull/vite-plugin-elm",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "astring": "^1.9.0",
+    "estree-walker": "^3.0.3",
+    "meriyah": "^6.0.5",
+    "tinyexec": "^1.0.0",
+    "ts-pattern": "^5.6.2"
+  },
+  "peerDependencies": {
+    "elm-tooling": "^1",
+    "vite": "^6"
+  }
 }
