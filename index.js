@@ -3,7 +3,6 @@ import process from "node:process";
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
 
-async function getContents(filename) {}
 /**
  * @returns {import('vite').Plugin}
  */
